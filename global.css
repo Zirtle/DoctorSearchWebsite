@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-aliceblue: #f3f7ff;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-white: #fff;
+  --color-darkslateblue: #153e90;
+  --color-midnightblue-100: #001175;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-5xl: 24px;
+}

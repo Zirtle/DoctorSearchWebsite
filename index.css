@@ -1,0 +1,392 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.healthapp {
+  top: calc(50% - 47px);
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 255px;
+  height: 94px;
+}
+.healthapp,
+.logo,
+.sign-up1 {
+  position: absolute;
+}
+.logo {
+  top: 0;
+  left: 112px;
+  background-color: var(--color-aliceblue);
+  width: 255px;
+  height: 94px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.sign-up1 {
+  top: 8px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 45px;
+}
+.sign-up {
+  position: absolute;
+  top: 17px;
+  left: 534px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslateblue);
+  width: 220px;
+  height: 60px;
+  cursor: pointer;
+}
+.about,
+.home,
+.services {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 143px;
+  height: 94px;
+}
+.about,
+.services {
+  left: 151px;
+  width: 166px;
+}
+.services {
+  left: 293px;
+  width: 249px;
+}
+.frame {
+  left: 0;
+  width: 542px;
+  color: var(--color-black);
+}
+.buttons,
+.frame,
+.menu {
+  position: absolute;
+  top: 0;
+  height: 94px;
+  overflow: hidden;
+}
+.buttons {
+  right: 0;
+  width: 854px;
+  color: var(--color-white);
+}
+.menu {
+  left: 0;
+  width: 1440px;
+  color: var(--color-midnightblue-100);
+}
+.find-and-search {
+  margin: 0;
+}
+.suitable-doctors {
+  margin: 0;
+  color: #001d7c;
+}
+.find-and-search-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.find-and-search-container {
+  position: absolute;
+  top: 169px;
+  left: 135px;
+  display: flex;
+  align-items: center;
+  width: 638px;
+  height: 128px;
+}
+.input1,
+.input2 {
+  border: 0;
+  display: block;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-5xl);
+  background-color: var(--color-aliceblue);
+  position: absolute;
+  top: 11px;
+  height: 51px;
+}
+.input1 {
+  left: 38px;
+  border-radius: 4px;
+  width: 260px;
+  overflow: hidden;
+}
+.input2 {
+  left: 329px;
+  border-radius: var(--br-8xs);
+  width: 256px;
+}
+.search-fill0-wght400-grad0-ops-icon {
+  position: absolute;
+  top: 4px;
+  left: 15px;
+  width: 47px;
+  height: 43px;
+  object-fit: cover;
+}
+.search1 {
+  position: absolute;
+  top: 10px;
+  left: 616px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue);
+  width: 76px;
+  height: 52px;
+}
+.search1:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.form,
+.search {
+  position: absolute;
+  overflow: hidden;
+}
+.search {
+  top: 384px;
+  left: 92px;
+  border-radius: 22px;
+  background-color: var(--color-white);
+  width: 724px;
+  height: 74px;
+}
+.form {
+  top: 0;
+  left: 0;
+  width: 874px;
+  height: 697px;
+}
+.image,
+.taeaugust07-1-icon {
+  position: absolute;
+  width: 566px;
+}
+.taeaugust07-1-icon {
+  top: 120px;
+  left: 0;
+  height: 441px;
+  object-fit: cover;
+}
+.image {
+  top: 15px;
+  left: 874px;
+  height: 682px;
+  overflow: hidden;
+}
+.banner {
+  top: 94px;
+  left: 0;
+  width: 1440px;
+  height: 697px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 54px;
+}
+.banner,
+.icon1,
+.title {
+  position: absolute;
+}
+.title {
+  top: 91px;
+  left: 346px;
+  font-size: var(--font-size-29xl);
+}
+.icon1 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 154px;
+  height: 154px;
+}
+.date-range-fill0-wght400-grad0-icon {
+  position: absolute;
+  top: 26px;
+  left: 27px;
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+}
+.iconbox {
+  position: absolute;
+  top: 0;
+  left: 112px;
+  width: 154px;
+  height: 154px;
+}
+.get-appointment {
+  position: absolute;
+  top: 182px;
+  left: 68px;
+}
+.ask-for-an-container {
+  position: absolute;
+  top: 248px;
+  left: 0;
+  font-size: var(--font-size-xl);
+}
+.appoinment {
+  position: absolute;
+  top: 225px;
+  left: 531px;
+  width: 378px;
+  height: 294px;
+}
+.search-fill0-wght400-grad0-ops-icon1 {
+  position: absolute;
+  top: 30px;
+  left: 31px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.searchbox {
+  position: absolute;
+  top: 0;
+  left: 116px;
+  width: 154px;
+  height: 154px;
+}
+.find-best-doctors,
+.search2 {
+  position: absolute;
+  top: 182px;
+  left: 67px;
+}
+.search2 {
+  top: 225px;
+  left: 77px;
+  width: 387px;
+  height: 294px;
+}
+.ask-for-an-container1 {
+  position: absolute;
+  top: 61px;
+  left: 0;
+}
+.happy-consultations {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  font-size: var(--font-size-13xl);
+}
+.frame1,
+.search3 {
+  position: absolute;
+  width: 378px;
+}
+.frame1 {
+  top: 182px;
+  left: 0;
+  height: 107px;
+  overflow: hidden;
+}
+.search3 {
+  top: 225px;
+  left: 981px;
+  height: 289px;
+  font-size: var(--font-size-xl);
+}
+.contact-phone-fill0-wght400-gr-icon {
+  position: absolute;
+  top: 256px;
+  left: 1124px;
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
+}
+.solution {
+  position: absolute;
+  top: 791px;
+  left: 0;
+  width: 1440px;
+  height: 683px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.best-quality-service-container,
+.with-our-top-container {
+  position: absolute;
+  top: 108px;
+  left: 146px;
+}
+.with-our-top-container {
+  top: 218px;
+  font-size: var(--font-size-5xl);
+  text-align: left;
+}
+.description1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 701px;
+  height: 591px;
+  overflow: hidden;
+}
+.female-doctor-using-her-digita-icon {
+  position: absolute;
+  top: 29px;
+  left: 79px;
+  width: 533px;
+  height: 533px;
+  object-fit: cover;
+}
+.description,
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 701px;
+  width: 739px;
+  height: 591px;
+  overflow: hidden;
+}
+.description {
+  top: 1474px;
+  left: 0;
+  width: 1440px;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 2065px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .home:hover {
+    animation: 1s ease 0s infinite normal none scale-up;
+    opacity: 1;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}

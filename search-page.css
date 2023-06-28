@@ -1,0 +1,260 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.healthapp1,
+.logo1 {
+  position: absolute;
+  width: 255px;
+  height: 94px;
+}
+.healthapp1 {
+  top: calc(50% - 47px);
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo1 {
+  top: 0;
+  left: 112px;
+  background-color: var(--color-aliceblue);
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.sign-up3 {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 45px;
+}
+.sign-up2 {
+  position: absolute;
+  top: 17px;
+  left: 534px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslateblue);
+  width: 220px;
+  height: 60px;
+}
+.about1,
+.home1,
+.services1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 143px;
+  height: 94px;
+}
+.about1,
+.services1 {
+  left: 151px;
+  width: 166px;
+}
+.services1 {
+  left: 293px;
+  width: 249px;
+}
+.frame2 {
+  position: absolute;
+  left: 0;
+  width: 542px;
+  color: var(--color-black);
+}
+.buttons1,
+.frame2,
+.menu1 {
+  top: 0;
+  height: 94px;
+  overflow: hidden;
+}
+.buttons1 {
+  position: absolute;
+  right: 0;
+  width: 854px;
+  color: var(--color-white);
+}
+.menu1 {
+  left: 0;
+  width: 1440px;
+}
+.icon12,
+.menu1,
+.title1 {
+  position: absolute;
+}
+.title1 {
+  top: 91px;
+  left: 333px;
+  font-size: var(--font-size-29xl);
+}
+.icon12 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 154px;
+  height: 154px;
+}
+.date-range-fill0-wght400-grad0-icon1 {
+  position: absolute;
+  top: 26px;
+  left: 27px;
+  width: 101px;
+  height: 101px;
+  object-fit: cover;
+}
+.get-appointment1 {
+  position: absolute;
+  top: 182px;
+  left: 68px;
+}
+.ask-for-an2 {
+  margin: 0;
+}
+.ask-for-an-container2 {
+  position: absolute;
+  top: 248px;
+  left: 0;
+  font-size: var(--font-size-xl);
+}
+.doctor2 {
+  position: absolute;
+  top: 225px;
+  left: 531px;
+  width: 378px;
+  height: 294px;
+}
+.doctor1:hover,
+.doctor2:hover,
+.doctor3:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.search-fill0-wght400-grad0-ops-icon2 {
+  position: absolute;
+  top: 30px;
+  left: 31px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.searchbox1 {
+  position: absolute;
+  top: 0;
+  left: 116px;
+  width: 154px;
+  height: 154px;
+}
+.doctor1,
+.find-best-doctors1 {
+  position: absolute;
+  top: 182px;
+  left: 67px;
+}
+.doctor1 {
+  top: 225px;
+  left: 77px;
+  width: 387px;
+  height: 294px;
+}
+.contact-phone-fill0-wght400-gr-icon1 {
+  position: absolute;
+  top: 31px;
+  left: 31px;
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
+}
+.serachbox {
+  position: absolute;
+  top: 0;
+  left: 112px;
+  width: 154px;
+  height: 154px;
+}
+.ask-for-an-container3 {
+  position: absolute;
+  top: 61px;
+  left: 0;
+}
+.happy-consultations1 {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  font-size: var(--font-size-13xl);
+}
+.doctor3,
+.frame3,
+.solution1 {
+  position: absolute;
+  width: 378px;
+}
+.frame3 {
+  top: 182px;
+  left: 0;
+  height: 107px;
+  overflow: hidden;
+}
+.doctor3,
+.solution1 {
+  top: 225px;
+  left: 981px;
+  height: 289px;
+  font-size: var(--font-size-xl);
+}
+.solution1 {
+  top: 94px;
+  left: 0;
+  width: 1440px;
+  height: 683px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.searchpage {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 2065px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-midnightblue-100);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .doctor3:hover,
+  .home1:hover {
+    animation: 1s ease 0s infinite normal none scale-up;
+    opacity: 1;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}
